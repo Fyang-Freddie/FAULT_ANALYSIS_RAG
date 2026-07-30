@@ -1,0 +1,19 @@
+# Agent、模型与向量库
+langchain>=1.0,<2.0
+langgraph>=1.0,<2.0
+langchain-community>=0.4,<1.0
+langchain-openai>=1.0,<2.0
+langchain-huggingface>=1.0,<2.0
+langchain-text-splitters>=1.0,<2.0
+faiss-cpu>=1.10,<2.0
+
+# 本地中文 Embedding 与 BM25
+sentence-transformers>=3.0,<6.0
+rank-bm25>=0.2.2
+jieba>=0.42.1
+
+# 配置、联网搜索以及 Word/PDF 解析
+python-dotenv>=1.0
+ddgs>=9.0,<10.0
+pypdf>=5.0,<7.0
+docx2txt>=0.9
